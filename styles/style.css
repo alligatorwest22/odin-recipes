@@ -1,3 +1,11 @@
+html {
+    font-size: 16px;
+}
+
+p {
+    font-size: calc(1rem + 1vm);
+}
+
 body {
     background-color: rgb(222, 238, 240);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -32,3 +40,39 @@ body {
     font-size: 25px;
 }
 
+/*? PAGES STYLE */
+
+/* titles */
+h1 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(16, 85, 146);
+}
+
+/* recipe images */
+img {
+    display: block;
+    margin: auto;
+}
+.okonomiyaki-img {
+    height: 320px;
+    width: 225px; 
+}
+
+.ajiaco-img {
+    height: 400px;
+    width: 300px;
+}
+
+.kimbap-img {
+    height: 305px;
+    width: 440px;
+}
+
+/* subtitles */
+h3 {
+    text-align: center;
+    color: rgb(34, 34, 87);
+}
+
+/* paragraphs */
